@@ -1,0 +1,117 @@
+## =========================
+## .NET / Visual Studio
+## =========================
+
+# Build results
+**/[Bb]in/
+**/[Oo]bj/
+**/[Dd]ebug*/
+**/[Rr]elease*/
+**/[Xx]64/
+**/[Xx]86/
+**/[Aa][Rr][Mm]/
+**/[Aa][Rr][Mm]64/
+**/[Ll]og/
+
+# Visual Studio files
+.vs/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# DotCover
+*.dotCover
+
+# Test results
+**/[Tt]est[Rr]esult*/
+**/[Tt]est[Rr]esults*/
+*.trx
+*.coverage
+*.coveragexml
+
+# BenchmarkDotNet
+BenchmarkDotNet.Artifacts/
+
+# NuGet
+**/packages/
+*.nupkg
+*.snupkg
+# Uncomment if you don't want to commit NuGet lock files
+# packages.lock.json
+
+# Publish / artifacts
+**/publish/
+**/artifacts/
+**/*.publishsettings
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Local settings / secrets
+appsettings.*.json
+!appsettings.json
+secrets.json
+*.pfx
+*.p12
+*.pem
+*.key
+
+# EF Core
+*.db
+*.db-shm
+*.db-wal
+
+# Logs
+*.log
+
+# OS / misc
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Docker
+**/.dockerignore
+
+# Node (if present)
+**/node_modules/
+
+# Coverage output folders
+coverage/
+**/coverage/
+**/coverageReport/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Paket (if used)
+.paket/
+paket-files/
+
+# NCrunch (if used)
+*crunch*.local.xml
+nCrunchTemp_/
+
+# Azure / tooling
+.localhistory/
